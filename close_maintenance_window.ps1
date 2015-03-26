@@ -1,4 +1,4 @@
-s$mytoken= "[token here]"
+$mytoken= "[token here]"
 $headers =  New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
 $headers.Add("Content-Type","application/json")
 $headers.Add("Authorization", "Token token=" + $mytoken)
